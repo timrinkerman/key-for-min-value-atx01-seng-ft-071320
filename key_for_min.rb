@@ -9,5 +9,7 @@ def key_for_min_value(name_hash)
     if value <= smol
       smol = value
       smol_key = key 
-    
+    end
+  end
+  smol_key
 end
